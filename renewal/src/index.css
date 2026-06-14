@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  
+  --color-brand-dark: #022226;
+  --color-brand-light: #F4F2DC;
+  --color-brand-accent: #AAD8D8;
+  --color-brand-accent2: #F7E28B;
+  --color-brand-gray: #2A2A2A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-dark);
+}
